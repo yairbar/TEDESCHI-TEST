@@ -1,15 +1,17 @@
 <template>
   <div id="app">
-   <h1>Travelfactory TEST</h1>
-   <h2>GIT TEST</h2>
+    <Contacts />
   </div>
 </template>
 
 <script>
+import Contacts from './components/Contacts'
+
 
 export default {
   name: 'App',
   components: {
+    Contacts
   }
 }
 </script>
@@ -18,11 +20,14 @@ export default {
 
 body {
   margin: 0;
+  background-color: #f3f3f4;
+  font-family:"open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  color: #2c3e50;
+
+  font-size: 13px;
+  color: #676a6c;
 }
 
 * {
